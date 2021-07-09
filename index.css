@@ -53,6 +53,8 @@ header {
 
 main {
   margin-top: 69px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Mission */
@@ -62,9 +64,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 700px;
-  max-width: 1200px;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
-  margin: 0 auto;
 }
 
 #mission-statement {
@@ -99,4 +99,40 @@ main {
 .tea img {
   height: 200px;
   width: 300px;
+}
+
+/* Locations */
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+}
+
+#locations article {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+  padding: 15px;
+}
+
+.location:last-child {
+  margin-right: 0;
+}
+
+.location h3,
+.location p {
+  margin-bottom: 40px;
 }
