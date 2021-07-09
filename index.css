@@ -10,6 +10,7 @@ body {
   background-color: black;
   font-size: 22px;
   color: seashell;
+  text-align: center;
   opacity: 0.9;
 }
 
@@ -60,7 +61,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: 700px;
   max-width: 1200px;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -70,9 +70,33 @@ main {
 #mission-statement {
   background-color: black;
   width: 100%;
-  padding: 10px 0;
+  padding: 10px;
 }
 
-#mission-statement h2 {
+#mission-statement h2,
+#featured-tea h2 {
   margin-bottom: 20px;
+}
+
+/* Featured Tea */
+
+#featured-tea {
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+#tea-pics {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.tea img {
+  margin: 10px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
 }
