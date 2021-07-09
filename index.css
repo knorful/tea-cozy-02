@@ -136,3 +136,16 @@ main {
 .location p {
   margin-bottom: 40px;
 }
+
+/* Footer */
+
+#contact-info {
+  height: 200px;
+  margin-top: 40px;
+}
+
+#copyright {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
