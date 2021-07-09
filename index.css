@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-html {
+body {
   font-family: Helvetica, sans-serif;
   background-color: black;
   font-size: 22px;
@@ -19,7 +19,10 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
+  top: 0;
   width: 100%;
+  background-color: black;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,4 +46,33 @@ header {
 
 #nav-links a {
   color: seashell;
+}
+
+/* Main */
+
+main {
+  margin-top: 69px;
+}
+
+/* Mission */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 700px;
+  max-width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin: 0 auto;
+}
+
+#mission-statement {
+  background-color: black;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#mission-statement h2 {
+  margin-bottom: 20px;
 }
